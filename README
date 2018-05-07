@@ -1,0 +1,77 @@
+Author: Eric Goodwin
+Class: CS2750 Section E01 Assignment 5
+Professor: Dr. Sanjiv Bhatia
+
+
+sieve.c
+
+program uses series of functions with bit vector shifting in order to execute the queue.
+no output format was required by the assignment specifications so it outputs one number after another.
+I did try several attempts at spacing to ease reading but ultimately I did not keep any of these 
+implemmentations. I opted to not pursue more complicated output in order to spend  more time on the queue assignment.
+
+no additional features beyond assignment requirements.
+
+telephone.c
+
+program can handle any white space and special characters.  it simply reads the input string and uses 
+isdigit to detect a digit and if it finds a digit, it puts in an array.  function then prints each 
+element in the array in the format (XXX) XXX-XXXX.
+
+there is extra code not used in the function file because in an abanonded approach, i attempted to 
+seperate out the first 3 digits, last four digits and then the remaining digits using a series of 
+modulo and division operators.  this approach did work to seperate out a 10 digit number.  H
+owever, this approach could not handle white spaces so I abandoned the approach. I left the code 
+in case i wanted to refer back to how modulo and division could seperate a number.
+
+
+otherwise, the program meets all assignment specifications with no additional features.
+
+
+The queue project consists of three programs: generator.c, qrocery_sim.c and bakery_sim.c
+
+This assignment was the most challenging.  I tried several approaches before settling on the eventual approach.
+
+My thought process for the eventual approach was to create a linked list that had all my customers, and then ass 
+their arrival time came up (counted by a timer variable as the while loop is processing) then a cutomer was 
+removed from the last and entered into a linked list representing the check out line.  In bakery_sim there was 
+just one queue line leading to a clerk but in grocery_sim there is an array of linked lists.
+
+As the clerk reached their service time (and counted by the timer variable) then a customer was removed form that 
+linked list and then their data was calculated into the accumulation variables contained in the Clerks_T struct.
+
+
+i tried to keep seperate files based on their role in the programs.  IE queue.c and queue.h  contain the necessary 
+files constructing the linked list structs.  
+
+functions.c includes all functions for both styles of sims with one exception.  There is funtion used to find the 
+best checkout line and its in the grocery_sim.c file because its only used by that sim.
+
+Some of my prototypes ended up in queue.h and some in the sims.  I should have combined these into a single header 
+file but I was more concerned about completing a working version of the program then clean up where the prototypes 
+were located.
+
+generator.c 
+contains the program that creates the list of customers. 
+
+grocery_sim.c 
+program simulates the multi-queue line system. 
+
+bakery_sim.c 
+program simulates the single queue line system.
+
+both progams are nearly the same with some changes to accomdate of the array of queues approach.
+
+generally, i try to keep even failed approachs in the program commented out so the process can be seen as to 
+how I developed the program, but in this case, the code would have been very messy so i removed the used code. 
+ I tried to keep detailed comments in the code explaining my throught process.
+
+****A note on the output - the simulation loops run until all the customers are served not based on a time limit.  I do not report any remaining customers because have been served.*****
+
+Makefile
+
+All programs include Makefile.
+
+git
+
+I do my primary writing in a seperate directory from the hand in directory and my .git directory is in that directory I do that primary writing. as a result,i could not include the .git directory in my handin.  However, I do inclode the git log for each of the programs 

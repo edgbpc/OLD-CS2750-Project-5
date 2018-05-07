@@ -1,0 +1,47 @@
+commit f0674b1e587989acf544d6611f38136d471e8013
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Sun Apr 24 19:52:15 2016 -0500
+
+    Final version
+
+commit 9da07556c95168bdece91750ec51834ddb18b01e
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Sun Apr 24 19:43:35 2016 -0500
+
+    updated Makefile
+
+commit 2d5b0401f1f64aec8c8f61324399480c5abde561
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Fri Apr 15 16:59:57 2016 -0500
+
+    added Makefile to git
+
+commit 5e71fc40eb7d410d5dabb56f8edc6efd6af63851
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Thu Apr 14 21:38:30 2016 -0500
+
+    Corrected version, handles white spaces
+
+commit 4e2364c389d16b768094e98e6274ea1aa104330e
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Thu Apr 14 13:50:57 2016 -0500
+
+    Working version
+
+commit ebadd32913bbc259fa6e7cc761d5db6d44b97a4f
+Author: Eric David Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Wed Apr 13 20:13:20 2016 -0500
+
+    version 2
+
+commit a479337f37581c9db8e50d3c718a82e74ff6cdd5
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Wed Apr 13 17:03:50 2016 -0500
+
+    initial version
+
+commit f790f1028dbbc5cfc888193acc47b67df49103d9
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Wed Apr 13 16:47:25 2016 -0500
+
+    initial version

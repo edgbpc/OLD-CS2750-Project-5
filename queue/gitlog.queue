@@ -1,0 +1,89 @@
+commit 0acb4c1c10a41c39fa07ce117563e3a3da6858fb
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Mon Apr 25 16:39:41 2016 -0500
+
+    final working version.  some minor edits may still be needed
+
+commit b209fa231237a5f51c00e634019b991d34fa03f9
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Sun Apr 24 22:24:08 2016 -0500
+
+    correct typo in Makefile
+
+commit e03499fe070dbcd76874ecc7085d03e81009729a
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Sun Apr 24 22:23:28 2016 -0500
+
+    Minor changes to arrival formulas
+
+commit 6d16cd59202860821c5534f0f4b670a97ee5ca99
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Sun Apr 24 20:00:44 2016 -0500
+
+    updated Makefile
+
+commit d0edcbb7c8aa755054b95a46f6b29cbf72824fef
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Sun Apr 24 17:38:15 2016 -0500
+
+    working version grocery_sim.c
+
+commit d1feefcbec2363fc777664135542c4a2b01b5152
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Sun Apr 24 14:19:29 2016 -0500
+
+    New Approval
+
+commit e563e7632842afec03e52d9d8017fcc4acdae303
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Sun Apr 24 14:18:37 2016 -0500
+
+    Generator.c working
+
+commit 3b97e7a72222f0234b92e721cd4cca4ea64d23dc
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Sun Apr 24 14:16:32 2016 -0500
+
+    Abandoned previous grocery2.c. new approach.  working version
+
+commit c6a0666c661912728cb8ac662553bca213727f7c
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Sun Apr 24 14:14:43 2016 -0500
+
+    Added Makefile
+
+commit b1a608230d8a97d93798e27c63b3d254ec4bf7c4
+Author: Eric David Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Thu Apr 21 20:45:32 2016 -0500
+
+    maybe working this time
+
+commit afc14ebb4faa386d1bce1df0bae966dbe2fc42df
+Author: Eric David Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Thu Apr 21 20:45:26 2016 -0500
+
+    maybe working this time
+
+commit 2daec40b1823d4721e137e156a34f915e76a42f2
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Thu Apr 21 12:36:22 2016 -0500
+
+    working
+
+commit 9f7d687355c25cd003ef39ef189b3aa392dc69bf
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Thu Apr 21 12:36:06 2016 -0500
+
+    working
+
+commit 3cc9b7bed7c8113dbf502c5eda7c536913523a7b
+Author: Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Sat Apr 16 23:02:52 2016 -0500
+
+    potential working version
+
+commit 4ed3b0a0319c1d9162d3ccf8feed3a4aff2b9a67
+Author: Eric David Goodwin <edgbpc@delmar.umsl.edu>
+Date:   Sat Apr 16 19:33:31 2016 -0500
+
+    Initial version
